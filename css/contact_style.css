@@ -1,0 +1,48 @@
+.main_c{
+    max-width: 1200px;
+}
+
+header{
+    height: 40vh;
+}
+
+
+.contact_price{
+    margin: 3rem 0;
+    display: grid;
+    text-align: center;
+
+}
+
+#contact_title{
+    font-size: clamp(3rem, 5vw, 7rem);
+}
+
+
+.contact_data{
+    max-width: 100%;
+
+}
+
+.map_container{
+    width: 60vw;
+    margin: 6rem auto;
+}
+
+.subtitle{
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 810px) {
+.contact_price{
+    grid-template-columns: 2fr 2fr;
+    
+
+}
+
+
+.contact_data{
+    border-left: 4px solid #99775C;
+    
+}
+}

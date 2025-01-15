@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chata Kremnica Galéria</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/facilities.css">
+    <link rel="stylesheet" href="css/gallery_style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet">
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+        #ex_container {
+          display: none; /* Initially hide exterior */
+        }
+    </style>
+    
+    <script>
+        $(document).ready(function(){
+          $("#in_button").click(function(){
+            $("#ex_container").fadeToggle("fast");
+            $("#in_container").fadeToggle("fast");
+          });
+        });
+    </script>
+
+    <script>
+    $(document).ready(function () {
+      $(".toggle-btn").click(function () {
+        // Toggle the "active" class between the two spans
+        $(this).find("span").toggleClass("active");
+      });
+    });
+    </script>
+
+
+</head>
+
+
+<body>
+
+    <header>
+        <h1 class="title" id="gallery_title">Galéria</h1>
+    </header>
+
+
+    <nav class="main-nav">
+        <ul class="menu">
+            <li><a href="index.html"><b>Chata Kremnica</b></a></li>
+            <li><a href="contact.html">Cenník</a></li>
+            <li><a href="gallery.html">Galéria</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+
+        <button id="in_button" class="toggle-btn">
+            <span class="active">Interiér</span>
+            <span>Exteriér</span>
+        </button>
+        
+
+
+        <div id="in_container"> 
+
+            <div class="in">
+                <figure><img src="./images/in_obyv.jpg" alt=""></figure>
+                <figure><img src="./images/in_kuchyna.jpg" alt=""></figure>
+                <figure><img src="./images/in_izba1.jpg" alt=""></figure>
+                <figure><img src="./images/in_izba2.jpg" alt=""></figure>
+                <figure><img src="./images/in_kupelna.jpg" alt=""></figure>
+            </div>
+
+        </div>
+
+
+
+        <div id="ex_container" >
+
+            <div class="in">
+                <figure><img src="./images/ex_front.jpg" alt=""></figure>
+                <figure><img src="./images/ex_front_w.jpg" alt=""></figure>
+                <figure><img src="./images/ext_deti.jpg" alt=""></figure>
+                <figure><img src="./images/ext_kada.jpg" alt=""></figure>
+                <figure><img src="./images/ext_altanok.jpg" alt=""></figure>
+
+            </div>
+
+        </div>
+
+
+
+        
+    </main>
+
+    <footer>
+        © 2024 Rekreačná chata Kremnica. Všetky práva vyhradené.
+
+    </footer>
+</body>
+</html>

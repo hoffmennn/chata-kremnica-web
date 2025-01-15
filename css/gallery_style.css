@@ -1,0 +1,66 @@
+#gallery_title{
+    font-size: clamp(3rem, 5vw, 7rem);
+}
+
+header{
+    height: 40vh;
+}
+
+.in{
+    display: grid;
+    gap: 16px;
+    margin: 20px;
+}
+
+#in_button{
+    align-items: center;
+    margin: 20px auto;
+    
+}
+
+
+
+@media screen and (min-width: 850px) {
+    .in{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+        max-width: 1300px;
+        margin: 0 auto;
+        border-radius: 8px;
+        object-fit: cover;
+        padding: 20px;
+    }
+
+}
+
+
+.toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #362417; /* Teal color */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 0 10px;
+  }
+  .toggle-btn span {
+    flex: 1;
+    text-align: center;
+    color: #e7e0da;
+    font-weight: bold;
+    transition: color 0.0s, background-color 0.0s;
+  }
+  .toggle-btn .active {
+    background-color: #e7e0da; /* Highlight active option */
+    color: #362417;
+    border-radius: 25px;
+    padding: 10px 6px;
+  }

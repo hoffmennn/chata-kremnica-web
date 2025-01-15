@@ -1,0 +1,130 @@
+.facility{
+    margin: 6rem auto;
+    max-width: 1200px;
+}
+
+#text{
+    line-height: 2rem;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.tips{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    margin: 0rem auto -5rem auto;
+
+}
+
+
+/*
+.grid_item{
+    border: 2px solid #99775C;
+}
+*/
+
+.tip_img{
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#tips_title{
+    text-align: center;
+    border-top: 4px solid #99775C;
+
+}
+.zoom-container {
+    overflow: hidden;
+}
+
+.zoom-image {
+width: 100%;
+height: auto;
+transition: transform 0.3s ease-out;
+}
+
+.zoom-container:hover .zoom-image {
+transform: scale(1.1); /* Adjust the scale factor for the zoom effect */
+}
+
+
+h3{
+
+    position: relative;
+    top: -68px;
+    color: rgba(240, 248, 255, 0.771);
+    font-family: 'Bebas Neue', 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+
+}
+#subtitle{
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+
+
+
+@media screen and (min-width: 850px) {
+    #frst_article{
+        margin-top: 0;
+        padding-top: 4rem;
+    }
+
+    .facility{
+        display: flex;
+        align-items: center;
+        border-right: 4px solid #99775C;
+    }
+
+    .facility figure{
+        flex: 3;
+    }
+    
+    .facility .content{
+        flex: 2;
+        padding: 0 2rem;
+        
+        
+    }
+    .facility:nth-child(even){
+        flex-direction: row-reverse;
+        border-left: 4px solid #99775C;
+        border-right: none;
+    }
+ 
+    .tips{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h3{
+        text-align: start;
+        left: 20px;
+        font-size: 4rem;
+        top: -76px;
+
+    }
+
+
+    #krahule{
+        position: relative;
+        top: -90px;
+    }
+    
+    #skalka{
+        position: relative;
+        top: -90px;
+    }
+    
+}
+
+

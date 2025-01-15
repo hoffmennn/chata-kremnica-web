@@ -1,0 +1,58 @@
+header{
+    height: 80vh;
+    background-image: url(../images/ex_front_w.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 70vw; /* Adjust height for mobile screens */
+    }
+}
+.title{
+    text-align: center;
+    font-size: clamp(30px, 4vw, 80px);
+    /*font-size: 4vw;*/
+    color: beige;
+}
+.main-nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    z-index: 2;
+}
+
+.main-nav li{
+    list-style: none;
+
+
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu{
+    display: flex;
+    gap: clamp(3vw, 4vw, 2rem);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    align-items: center;
+    font-size: clamp(1rem, 1rem, 2rem);
+    text-align: center;
+    padding-left: 1rem;
+}
+

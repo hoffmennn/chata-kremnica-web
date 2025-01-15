@@ -1,0 +1,64 @@
+body{
+    color: rgb(21, 21, 21);
+    background-color: #e7e0da;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif ;
+    font-size: larger;
+    margin: 0;
+}
+
+main{
+    margin: 0 2vw;
+
+}
+
+section{
+    padding: 0 1.25rem;
+}
+
+h1{
+    position: relative;
+    margin: auto auto;
+    text-shadow: 4px 4px 5px #403125;
+    font-family: 'Lexend Deca','Courier New', Courier, monospace;
+    font-size: clamp(1rem, 2vw, 1rem);
+}
+
+
+figure{
+    max-width: 100%;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+
+    height: auto;
+}
+
+p{
+    margin: 0.5rem 0;
+    line-height: 2rem;
+}
+
+
+article{
+    margin: 4rem 0;
+
+    
+}
+
+h2{
+    margin: 0.5rem 0 2rem 0;
+    font-size: clamp(1.75rem, 10vw, 3.5rem);
+    color: #362417;
+}
+
+footer{
+    padding: 2rem;
+    background-color: #362417;
+    color: #E7E0DA;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+
+}
