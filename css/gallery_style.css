@@ -6,6 +6,10 @@ header{
     height: 40vh;
 }
 
+#ex_container {
+    display: none; /* Initially hide exterior */
+  }
+
 .in{
     display: grid;
     gap: 16px;
