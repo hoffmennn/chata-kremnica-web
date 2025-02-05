@@ -35,17 +35,26 @@ img{
     height: auto;
 }
 
+.main_page_img{
+    border-radius: 1%;
+    max-height: 370px;
+}
+
 p{
     margin: 0.5rem 0;
     line-height: 2rem;
 }
 
+#first_article{ 
+    margin-top: 20px;
+}
 
 article{
-    margin: 4rem 0;
-
-    
+    margin: 4rem 20px;  
 }
+
+
+
 
 h2{
     margin: 0.5rem 0 2rem 0;
@@ -54,6 +63,7 @@ h2{
 }
 
 footer{
+    margin-top: 40px;
     padding: 2rem;
     background-color: #362417;
     color: #E7E0DA;
