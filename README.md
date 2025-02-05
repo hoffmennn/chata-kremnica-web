@@ -4,9 +4,9 @@ Tento projekt predstavuje jednoduchú webovú stránku určenú na prezentáciu 
 Stránka obsahuje dôležité informácie o chate a galériu fotografií.
 
 ## Použité technológie
-- **HTML**: Základná štruktúra webovej stránky.
-- **CSS**: Štýlovanie a responzivita.
-- **JavaScript**:  prepínanie galérie pomocou jQuery
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 
 ## Ako spustiť projekt
