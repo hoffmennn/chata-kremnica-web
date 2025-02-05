@@ -28,15 +28,23 @@ header{
 
 .map_container{
     width: 60vw;
-    margin: 6rem auto;
+    margin: 2rem auto 5rem auto;
+    border-bottom: #99775C solid 4px;
 }
 
 .subtitle{
     margin-bottom: 0.5rem;
 }
 
+#location{
+    border-top: #99775C solid 4px;
+    text-align: center;
+    margin-top: 7vw;
+    margin-bottom: 0;
+}
 #location_article{
     margin: auto auto;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
