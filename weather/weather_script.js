@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const imageFilename = imageMap[weatherCondition] || defaultImage;
         
         // Construct the full path to the image
-        return `images/${imageFilename}`;
+        return `weather/images/${imageFilename}`;
         
     }
     
