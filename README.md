@@ -9,11 +9,7 @@ Stránka obsahuje dôležité informácie o chate a galériu fotografií.
 - **JavaScript**
 
 
-## Ako spustiť projekt
-1. Naklonujte repozitár:
-   ```bash
-   git clone <url>
-   ```
-2. Otvorte `index.html` v internetovom prehliadači.
+## (https://www.chata-kremnica.sk/)
+
 
 
